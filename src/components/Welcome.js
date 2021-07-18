@@ -3,10 +3,11 @@ import React from "react";
 
 function Welcome(props) {
   return(
-    <h3 class="name">{props.name}</h3>
-    <h1 class={props.text}>{props.text}</h1>
-     <h2>Welcome to Newton School.</h2>
+    <div>
+    <h1>Hey{name}!</h1>
+    <h2>Welcome to Newton School.</h2> 
+</div>
       )
 }
 export default Welcome;
-  
+
