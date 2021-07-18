@@ -11,7 +11,7 @@ const App = () => {
 
   return (
 
-    <Welcome name="" />
+    <Welcome name="Ans" />
 
   )
 
